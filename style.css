@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(23,23,23,0.15);
+    /* padding: 20px; */
+    position: absolute;
+    top: 0%;
+}
+.containerone{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a img{
+width: 200px;
+filter: saturate(1.5);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.buttonone{
+    padding-right: 20px;
+   
+}
+header button{
+    width: 100px;
+    height: 40px;  
+    background-color: black;
+}
+.firstbutt{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+.secondbutt{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+   
+
+
+
+
+.banner-container{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(9, 10, 10, 0.363), rgb(0, 0, 0)), url(/images/netflixcover.jpg);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.banner-container h1{
+    margin: 0;
+}
+.containertwo{
+    font-size: 27px;
+    color: white;
+    padding-top: 120px;
+}
+.searchbar{
+    width: 500px;
+    height: 70px;
+    border-style: none;
+
+}
+.submitbutton{
+    display: flex;
+    justify-content: right;
+}
+.submitbar{
+    width: 200px;
+    height: 70px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-color: red;
+}
+.parentsubmitbar{
+    display: flex;
+   
+    
+}
+
+
+.secondbanner{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-top: 8px solid #222;
+    
+}
+.containerthree{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-around;
+}
+ .containerthree img{
+     position: relative;
+   
+ }
+.enjoy {
+    color: aliceblue;
+    font-size: 24px;
+    padding-top: 60px;
+   
+}
+.enjoy h3{
+    font-weight: 100;
+   
+}
+.videoone {
+    position: absolute;
+    height: 294px;
+    padding-left: 756px;
+    padding-top: 80px;
+}
+.videoone iframe {
+    width: 406px;
+    height: 224px;
+}
+
+
+
+.thirdbanner{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+}
+.containerfour{
+    display: flex;
+    justify-content: space-around;
+}
+.downloadshows {
+    color: aliceblue;
+    position: absolute;
+    padding-top: 83px;
+    right: 18%;
+    font-size: 24px;
+}
+.downloadshows h3{
+    font-weight: 100;
+}
+
+
+
+.fourthbanner{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    border-top: 8px solid #222;
+}
+.containerfive{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.saifvideo video {
+    position: absolute;
+    right: 13%;
+    padding-top: 47px;
+    width: 387px;
+}
+.containerfive img{
+    position: relative;
+}
+.watcheverywhere{
+    color: white;
+    font-size: 24px;
+    padding-top: 100px;
+}
+.watcheverywhere h3{
+    font-weight: 100;
+}
+
+
+
+.fifthbanner{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    border-top: 8px solid #222;
+}
+.containersix{
+    display: flex;
+    justify-content: space-around;
+}
+.createprofile{
+    color: white;
+    font-size: 24px;
+    padding-top: 72px;
+}
+.createprofile h3{
+    font-weight: 100;
+}
+.containersix img {
+    width: 421px;
+    height: 394px;
+    padding-top: 50px;
+}
+
+
+
+.sixthbanner{
+    width: 100%;
+    height: 741px;
+    background-color: black;
+   
+}
+.askedquestions{
+    width: 100%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #222;
+}
+.askedquestions h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+}
+.questionsfive{
+    width: 815px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    color: white;
+    border-top: 3px solid #222;
+    
+
+}
+.questions p{
+    font-size: 31px;
+    margin-top: 16px;
+    color: white;
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 8px solid #222;
+}
+.firstbox{
+    width: 60%;
+    height: 350px;
+    background-color: black;
+}
+.callus{
+    color:#757575;
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.contentbox{
+    width: 100%;
+    height: 185px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.firstcoloumn{
+    background-color: rgb(0, 0, 0);
+    height: 180px;
+    width: 25%;
+}
+.firstcoloumn li{
+    list-style: none;
+    padding-bottom: 10px;
+    color: #757575;
+    font-size: 14px;
+}
+.language {
+    background-color: rgb(0, 0, 0);
+    width: 103px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #757575;
+    
+}
+.language li{
+    list-style: none;
+    font-size: 15px;
+    color: #757575;
+
+}
+.netflixind{
+    color: #757575;
+    font-size: 12px;
+}
